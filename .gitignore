@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local generated data
+/data/
+models/*.joblib
+models/*.pkl
+
+# Airflow runtime files
+/logs/
+airflow.cfg
+airflow-webserver.pid
+webserver_config.py
+
+# Docker and local runtime state
+*.pid
+.docker/
+
+# IDE
+.vscode/
+.DS_Store

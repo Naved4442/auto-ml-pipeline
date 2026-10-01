@@ -1,0 +1,9 @@
+apache-airflow==2.9.1
+pandas==2.1.4
+scikit-learn==1.5.2
+psycopg2-binary==2.9.9
+SQLAlchemy==1.4.54
+joblib==1.4.2
+pytest==8.3.3
+numpy==1.26.4
+scipy==1.13.1
